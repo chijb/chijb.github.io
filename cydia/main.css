@@ -1,9 +1,9 @@
-html {
+/* html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-} */
-/* body {
+}
+body {
   margin: 0;
 }
 article,
@@ -13,23 +13,23 @@ header,
 nav,
 section {
   display: block;
-} */
-/* h1 {
+}
+h1 {
   line-height: 1.2em;
   font-size: 2em;
   margin: 0.3em 0;
-} 
+} */
 
- .header-banner {
+/* .header-banner {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: auto;
-} 
- .header-banner img {
-  margin-right: 5px;
 }
+.header-banner img {
+  margin-right: 5px;
+} */
 
 .head-section .add-to > div {
   display: flex;
@@ -39,8 +39,8 @@ section {
   margin: auto;
 }
 .head-section .add-to img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 /* .prompt {
@@ -83,12 +83,12 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-} */
-/* pre {
+}
+pre {
   font-family: monospace, monospace;
   font-size: 1em;
-} */
-/* a {
+}
+a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -97,8 +97,8 @@ abbr[title] {
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-} */
-/* b,
+}
+b,
 strong {
   font-weight: inherit;
 }
@@ -148,8 +148,8 @@ img {
 }
 svg:not(:root) {
   overflow: hidden;
-} */
-/* button,
+}
+button,
 input,
 optgroup,
 select,
@@ -203,13 +203,13 @@ progress {
 }
 textarea {
   overflow: auto;
-} */
-/* [type="checkbox"],
+}
+[type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
   padding: 0;
-} */
-/* [type="number"]::-webkit-inner-spin-button,
+}
+[type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
@@ -224,8 +224,8 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
-} */
-/* details,
+}
+details,
 menu {
   display: block;
 }
@@ -240,8 +240,8 @@ template {
 }
 [hidden] {
   display: none;
-} */
-/* .font-body,
+}
+.font-body,
 body {
   font: 400 16px/1.3em system-ui, BlinkMacSystemFont, -apple-system-font,
     "Helvetica Neue", sans-serif;
@@ -312,8 +312,8 @@ section > ul > li:after {
 .has-subpixel section > ul:before,
 .has-subpixel section > ul > li:after {
   height: 0.5px;
-} */
-/* .has-subpixel-3x #about:after,
+}
+.has-subpixel-3x #about:after,
 .has-subpixel-3x #about:before,
 .has-subpixel-3x #about > li:after,
 .has-subpixel-3x #promo:after,
@@ -329,17 +329,17 @@ section > ul > li:after {
 } */
 /* html {
   background: #efeff5;
-} */
-/* html .depiction {
+}
+html .depiction {
   background: 0 0;
-} */
-/* body {
+}
+body {
   margin: 80px 0 35px 0;
-} */
-/* .cydia body {
+}
+.cydia body {
   margin-top: 35px;
-} */
-/* .depiction body {
+}
+.depiction body {
   margin-top: 0;
   margin-bottom: 0;
 } */
@@ -354,14 +354,14 @@ section > ul > li:after {
     width: 964px;
   }
 } */
-[role="footer"],
+/* [role="footer"],
 body > p,
 h2,
 header .date {
   margin: 15px;
   color: #6d6d72;
-}
-@media (min-width: 708px) {
+} */
+/* @media (min-width: 708px) {
   [role="footer"],
   body > p,
   h2,
@@ -369,8 +369,8 @@ header .date {
     margin-left: 0;
     margin-right: 0;
   }
-}
-h2,
+} */
+/* h2,
 header .date {
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -386,8 +386,8 @@ header .date a:active,
 header .date a:focus,
 header .date a:hover {
   text-decoration: underline;
-}
-hr {
+} */
+/* hr {
   border: 0;
 }
 body > header {
@@ -418,17 +418,17 @@ body > header h1 {
   text-align: center;
   font-size: 18px;
   line-height: 44px;
-}
+} */
 #about,
 #promo,
 section > ul {
   position: relative;
-  margin: 5px 0 35px 0;
+  margin: 1px 0 5px 0;
   padding: 0;
   list-style: none;
   background: #fff;
 }
-@media (min-width: 708px) {
+/* @media (min-width: 708px) {
   #about,
   #promo,
   section > ul {
@@ -444,8 +444,8 @@ section > ul:before {
   content: "";
   position: absolute;
   left: 0;
-}
-@media (min-width: 708px) {
+} */
+/* @media (min-width: 708px) {
   #about:after,
   #about:before,
   #promo:after,
@@ -454,7 +454,7 @@ section > ul:before {
   section > ul:before {
     display: none;
   }
-}
+} */
 #about:before,
 #promo:before,
 section > ul:before {
@@ -481,7 +481,7 @@ section > ul > li:after {
   top: 0;
   left: 0;
 }
-#about > li:first-child:after,
+/* #about > li:first-child:after,
 #promo > li:first-child:after,
 section > ul > li:first-child:after {
   background: 0 0;
@@ -517,7 +517,7 @@ section > ul > li:first-child:after {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
-}
+} */
 #about > li [role="button"],
 #about > li [role="link"],
 #about > li ol,
@@ -550,7 +550,7 @@ section > ul > li ul {
 section > ul > li.has-icon {
   margin-left: 59px;
 }
-#about > li.has-icon [role="button"],
+/* #about > li.has-icon [role="button"],
 #about > li.has-icon [role="link"],
 #about > li.has-icon p,
 #promo > li.has-icon [role="button"],
@@ -570,7 +570,7 @@ section > ul > li .icon {
   left: 15px;
   width: 29px;
   height: 29px;
-}
+} */
 #about > li [role="button"],
 #about > li [role="link"],
 #promo > li [role="button"],
@@ -598,7 +598,7 @@ section > ul > li [role="link"]:active,
 section > ul > li [role="link"]:focus {
   background-color: #d9d9d9;
 }
-#about > li [role="button"]:after,
+/* #about > li [role="button"]:after,
 #about > li [role="link"]:after,
 #promo > li [role="button"]:after,
 #promo > li [role="link"]:after,
@@ -661,13 +661,13 @@ section > ul + p {
 .center {
   text-align: center;
 }
-/* h3,
+h3,
 h4,
 h5,
 h6 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-} */
+}
 code {
   font-family: Menlo, Consolas, monospace;
 }
@@ -695,8 +695,8 @@ body > header > a {
   -webkit-tap-highlight-color: transparent;
   position: relative;
   z-index: 12;
-}
-body > header > a:active,
+} */
+/* body > header > a:active,
 body > header > a:focus {
   opacity: 0.25;
 }
@@ -754,8 +754,8 @@ nav a .icon {
 }
 article > p {
   margin: 0 15px 40px 15px;
-}
-@media (min-width: 708px) {
+} */
+/* @media (min-width: 708px) {
   article > p {
     margin-left: 0;
     margin-right: 0;
@@ -795,8 +795,8 @@ article > p {
 .package-info dl {
   font-size: 0.85em;
   margin: 0;
-}
-.package-info dl dt {
+} */
+/* .package-info dl dt {
   float: left;
   clear: left;
   width: 100px;
@@ -817,7 +817,7 @@ article > p {
   #about:before {
     background: 0 0;
   }
-}
+} */
 #about .add-to {
   display: block;
   color: #000;
@@ -840,7 +840,7 @@ article > p {
   color: #000;
 }
 
-#promo {
+/* #promo {
   display: none;
 }
 #promo.show {
@@ -887,4 +887,4 @@ article > p {
 }
 .embed-responsive * {
   border-radius: 4px;
-}
+} */
