@@ -1,9 +1,9 @@
-html {
+/* html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-body {
+} */
+/* body {
   margin: 0;
 }
 article,
@@ -13,23 +13,23 @@ header,
 nav,
 section {
   display: block;
-}
-h1 {
+} */
+/* h1 {
   line-height: 1.2em;
   font-size: 2em;
   margin: 0.3em 0;
-}
+} */
 
-.header-banner {
+/* .header-banner {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: auto;
-}
-.header-banner img {
+} */
+/* .header-banner img {
   margin-right: 5px;
-}
+} */
 
 .head-section .add-to > div {
   display: flex;
@@ -39,11 +39,11 @@ h1 {
   margin: auto;
 }
 .head-section .add-to img {
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
 }
 
-.prompt {
+/* .prompt {
   font-size: 2em;
   font-weight: 200;
   margin: 0 0 40px;
@@ -61,17 +61,17 @@ h1 {
 .prompt svg {
   height: 1em;
   vertical-align: baseline;
-}
-@keyframes cursor {
+} */
+/* @keyframes cursor {
   0%, 49%, 100% {
     background: #962071;
   }
   50%, 99% {
     background: transparent;
   }
-}
+} */
 
-figcaption,
+/* figcaption,
 figure,
 main {
   display: block;
@@ -83,12 +83,12 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-}
-pre {
+} */
+/* pre {
   font-family: monospace, monospace;
   font-size: 1em;
-}
-a {
+} */
+/* a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -97,8 +97,8 @@ abbr[title] {
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-}
-b,
+} */
+/* b,
 strong {
   font-weight: inherit;
 }
@@ -148,8 +148,8 @@ img {
 }
 svg:not(:root) {
   overflow: hidden;
-}
-button,
+} */
+/* button,
 input,
 optgroup,
 select,
@@ -203,13 +203,13 @@ progress {
 }
 textarea {
   overflow: auto;
-}
-[type="checkbox"],
+} */
+/* [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
   padding: 0;
-}
-[type="number"]::-webkit-inner-spin-button,
+} */
+/* [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
@@ -224,8 +224,8 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
-}
-details,
+} */
+/* details,
 menu {
   display: block;
 }
@@ -240,8 +240,8 @@ template {
 }
 [hidden] {
   display: none;
-}
-.font-body,
+} */
+/* .font-body,
 body {
   font: 400 16px/1.3em system-ui, BlinkMacSystemFont, -apple-system-font,
     "Helvetica Neue", sans-serif;
@@ -281,7 +281,7 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}
+} */
 #about:after,
 #about:before,
 #about > li:after,
@@ -299,7 +299,7 @@ section > ul > li:after {
   height: 1px;
   background: #c8c7cc;
 }
-.has-subpixel #about:after,
+/* .has-subpixel #about:after,
 .has-subpixel #about:before,
 .has-subpixel #about > li:after,
 .has-subpixel #promo:after,
@@ -312,8 +312,8 @@ section > ul > li:after {
 .has-subpixel section > ul:before,
 .has-subpixel section > ul > li:after {
   height: 0.5px;
-}
-.has-subpixel-3x #about:after,
+} */
+/* .has-subpixel-3x #about:after,
 .has-subpixel-3x #about:before,
 .has-subpixel-3x #about > li:after,
 .has-subpixel-3x #promo:after,
@@ -326,34 +326,34 @@ section > ul > li:after {
 .has-subpixel-3x section > ul:before,
 .has-subpixel-3x section > ul > li:after {
   height: 0.33333px;
-}
-html {
+} */
+/* html {
   background: #efeff5;
-}
-html .depiction {
+} */
+/* html .depiction {
   background: 0 0;
-}
-body {
+} */
+/* body {
   margin: 80px 0 35px 0;
-}
-.cydia body {
+} */
+/* .cydia body {
   margin-top: 35px;
-}
-.depiction body {
+} */
+/* .depiction body {
   margin-top: 0;
   margin-bottom: 0;
-}
-@media (min-width: 708px) {
+} */
+/* @media (min-width: 708px) {
   #content {
     width: 708px;
     margin: 0 auto;
   }
-}
-@media (min-width: 964px) {
+} */
+/* @media (min-width: 964px) {
   #content {
     width: 964px;
   }
-}
+} */
 [role="footer"],
 body > p,
 h2,
@@ -661,13 +661,13 @@ section > ul + p {
 .center {
   text-align: center;
 }
-h3,
+/* h3,
 h4,
 h5,
 h6 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
+} */
 code {
   font-family: Menlo, Consolas, monospace;
 }
