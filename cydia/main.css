@@ -1,4 +1,4 @@
-/* html {
+html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -18,18 +18,18 @@ section {
   line-height: 1.2em;
   font-size: 2em;
   margin: 0.3em 0;
-} */
+} 
 
-/* .header-banner {
+ .header-banner {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: auto;
-} */
-/* .header-banner img {
+} 
+ .header-banner img {
   margin-right: 5px;
-} */
+}
 
 .head-section .add-to > div {
   display: flex;
@@ -661,13 +661,13 @@ section > ul + p {
 .center {
   text-align: center;
 }
-/* h3,
+h3,
 h4,
 h5,
 h6 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-} */
+}
 code {
   font-family: Menlo, Consolas, monospace;
 }
